@@ -1,0 +1,165 @@
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, #8AABEA 0%, #A2BBED 94.86%);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 120px;
+
+}
+.navLinks ul li{
+  flex: 1;
+  text-align: right;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+.navLinks ul li a{
+  color: blue;
+}
+.navLinks ul li:hover::after{
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background: blue;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navLinks ul li:hover::after{
+  width: 100%;
+}
+.head{
+  width: 90%
+  color: blue;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.head h1{
+  font-size: 62px;
+}
+.head p{
+  margin: 2px 4px 4px;
+  font-size: 30px;
+
+}
+/* ------------- about me section-------------- */
+.aboutme{
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover; */
+  position: relative;
+  margin :auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.aboutme p{
+  display: flex;
+  display: inline-block;
+  background: #F0F8FF;
+  border-radius: 4%;
+  margin-bottom: 15%;
+  padding: 80px 80px;
+  color: blue;
+  position: relative;
+}
+/* ------------- Skills section-------------- */
+.skills{
+  min-height: 100vh;
+  width: 100%;
+  margin :auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.divskills ul li{
+  flex: 2;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+.divskills ul{
+  display: flex;
+  display: inline-block;
+  background: #F0F8FF;
+  border-radius: 4%;
+  margin-bottom: 15%;
+  padding: 80px 80px;
+  color: blue;
+  position: relative;
+}
+
+/* ------------- Conatct me section-------------- */
+.contact{
+  min-height: 100vh;
+  width: 100%;
+  margin :auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+.divcontact ul li{
+  flex: 2;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+
+}
+.divcontact{
+  display: inline-block;
+  text-align: center;
+  background: #F0F8FF;
+  border-radius: 4%;
+  margin-bottom: 15%;
+  padding: 8px 80px;
+  color: blue;
+  position: relative;
+}
+/* ------------- footer section-------------- */
+footer{
+  text-align:center;
+}
+
+/* -------media queries------- */
+
+@media screen and (max-width:500px){
+  .head h1{
+    font-size: 30px
+  }
+  .head p{
+    font-size: 20px
+  }
+  .navLinks ul li{
+    display: block;
+    text-align: left;
+}
+.aboutme h1{
+    font-size: 25px
+}
+.aboutme p{
+    font-size: 15px;
+    display: block;
+    padding: 90px 10px;
+    margin: 90px;
+}
+nav img{
+  width: 100px;
+
+}
+}
