@@ -29,7 +29,7 @@ nav img{
 }
 .navLinks ul li:hover::after{
   content: " ";
-  width: 0%;
+  width: 0;
   height: 2px;
   background: blue;
   display: block;
@@ -61,14 +61,13 @@ nav img{
   min-height: 100vh;
   width: 100%;
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
   position: relative;
   margin :auto;
   text-align: center;
   padding-top: 100px;
 }
 .aboutme p{
-  display: flex;
   display: inline-block;
   background: #F0F8FF;
   border-radius: 4%;
@@ -94,7 +93,6 @@ nav img{
 
 }
 .divskills ul{
-  display: flex;
   display: inline-block;
   background: #F0F8FF;
   border-radius: 4%;
